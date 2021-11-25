@@ -9,6 +9,8 @@ license = "MIT"
 python = "^3.8"
 pandas = "^1.2.2"
 pytest = "^6.2.5"
+codecov = "^2.1.12"
+flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
 Sphinx = "^3.5.1"
