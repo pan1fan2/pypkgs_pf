@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(1, '../src')
-import pypkgs_pf
+from src import pypkgs_pf
 import pandas as pd
 
 def test_catbind():
