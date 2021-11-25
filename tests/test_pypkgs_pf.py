@@ -1,10 +1,7 @@
-from src/pypkgs_pf/ import __version__
-from src/pypkgs_pf/ import pypkgs_pf
+import sys
+sys.path.insert(1, '../src')
+import pypkgs_pf
 import pandas as pd
-
-
-def test_version():
-    assert __version__ == '0.1.0'
 
 def test_catbind():
     a = pd.Categorical(["character", "hits", "your", "eyeballs"])
