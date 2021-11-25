@@ -1,5 +1,5 @@
-from pypkgs_pf import __version__
-from pypkgs_pf import pypkgs_pf
+from src/pypkgs_pf import __version__
+from src/pypkgs_pf import pypkgs_pf
 import pandas as pd
 
 
